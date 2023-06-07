@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-family: 900;
+}
+
+p {
+    color: #983586;
+}
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 2;
+    margin-top: 20%;
+}
+
+.section-heading {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    color: #ffffff;
+    background-color: #983586;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.title-image {
+    position: static;
+    width: 50%;
+    margin-left: 40%;
+    right: 20%;
+}
+
+#abilities {
+    background-color: #fff;
+    position: relative;
+}
+
+.ability-title {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.ability-text {
+    margin-top: 5%;
+    line-height: 2;
+    color: #000;
+}
+
+.ability-box {
+    padding: 5%;
+}
+
+.abilityImg {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1028px) {
+    
+    #title .container-fluid {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        margin-left: 0;
+    }
+}
